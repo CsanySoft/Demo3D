@@ -8,7 +8,7 @@ import com.majzer.threeddemo.ThreeDDemo;
 public class DesktopLauncher {
 	public static void main (String[] arg) {
 		LwjglApplicationConfiguration config = new LwjglApplicationConfiguration();
-		//new LwjglApplication(new ThreeDDemo(), config);
+		ew LwjglApplication(new ThreeDDemo(), config);
 		new LwjglApplication(new ModelDemo(), config);
 	}
 }
